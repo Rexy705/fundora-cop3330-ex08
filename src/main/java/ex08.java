@@ -2,16 +2,14 @@ import java.util.Scanner;
 
 public class ex08 {
     public static void main (String[] args) {
-        Scanner input1 = new Scanner(System.in),
-                input2 = new Scanner(System.in),
-                input3 = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("How many people? ");
-        String people = input1.next();
+        String people = input.next();
         System.out.print("How many pizzas do you have? ");
-        String pizzas = input2.next();
+        String pizzas = input.next();
         System.out.print("How many slices per pizza? ");
-        String slices = input3.next();
+        String slices = input.next();
 
         int people_int = Integer.parseInt(people);
         int pizzas_int = Integer.parseInt(pizzas);
